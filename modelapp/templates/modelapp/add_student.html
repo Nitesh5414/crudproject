@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Student</title>
+    <style media="screen">
+      body{
+        background-image:url('https://www.hdwallpapers.in/download/yellow_wave_abstract-1280x800.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+    </style>
+  </head>
+  <body style="text-align:center; margin-top:150px; ">
+    <h1>Add Student Here !</h1>
+
+    <form class="" action="" method="POST"> {% csrf_token %}
+      {{form.as_p}}
+      <button type="submit" name="button">Add Student</button>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Update Student</title>
+    <style media="screen">
+      body{
+        background-image:url('https://4.bp.blogspot.com/--iyAJVISEdY/XStJI3OSBXI/AAAAAAABUvw/9Bn5cdZtUbohibTQB_j-zPBAdnDs_8ONwCLcBGAs/s1600/sunset-sunrise-sea-wall-art-canvas-painting-prints-.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        text-align:center;
+        margin-top:150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Update Student Here !</h1>
+
+    <form class="" action="" method="POST"> {% csrf_token %}
+      {{form.as_p}}
+
+      <button type="submit" name="button">Update Student</button>
+    </form>
+
+  </body>
+</html>
